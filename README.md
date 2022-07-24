@@ -1,5 +1,15 @@
 # asyncbbb - async BigBlueButton API Client for Python
-
+<p>
+    <a href="https://pypi.org/project/asyncbbb" target="_blank">
+        <img src="https://img.shields.io/pypi/v/asyncbbb?color=%2334D058&label=pypi%20package" alt="Package version">
+    </a>
+    <a href="https://pypi.org/project/asyncbbb" target="_blank">
+        <img src="https://img.shields.io/pypi/pyversions/asyncbbb.svg?color=%2334D058" alt="Supported Python versions" />
+    </a>
+    <a href="https://github.com/SebastianLuebke/asyncbbb/blob/main/LICENSE" target="_blank">
+        <img src="https://img.shields.io/github/license/sebastianluebke/asyncbbb?color=%2334D058" />
+    </a>
+</p>
 
 ## Installation
 ```
@@ -10,6 +20,7 @@ pip install asyncbbb
 ```python
 import asyncio
 
+from asyncbbb import BigBlueButton
 
 async def test():
     bbb = BigBlueButton(

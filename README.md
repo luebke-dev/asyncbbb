@@ -23,7 +23,7 @@ pip install asyncbbb
 ```python
 import asyncio
 
-from asyncbbb import BigBlueButton
+from asyncbbb import BigBlueButton, BigBlueButtonException
 
 async def test():
     bbb = BigBlueButton(
